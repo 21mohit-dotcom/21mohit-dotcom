@@ -72,10 +72,16 @@
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=21mohit-dotcom&show_icons=true&theme=catppuccin_mocha&bg_color=1e1e2e&hide_border=true&include_all_commits=true&count_private=true&hide=issues,contribs" width="48%" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=21mohit-dotcom&layout=compact&theme=catppuccin_mocha&bg_color=1e1e2e&hide_border=true&langs_count=8" width="48%" />
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-stats-extended.vercel.app/api?username=21mohit-dotcom&show_icons=true&theme=catppuccin_mocha&bg_color=1e1e2e&hide_border=true&include_all_commits=true&count_private=true&hide=issues,contribs&card_width=495" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-stats-extended.vercel.app/api/top-langs?username=21mohit-dotcom&layout=compact&theme=catppuccin_mocha&bg_color=1e1e2e&hide_border=true&langs_count=8&card_width=495" />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=21mohit-dotcom&theme=react-dark&hide_border=true&bg_color=1e1e2e&area=true&color=89b4fa" width="92%" />
