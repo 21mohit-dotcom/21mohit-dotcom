@@ -65,7 +65,7 @@
 ## 📊 LeetCode Stats & Heatmap
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/ms_2107?theme=compact&ext=heatmap&bg_color=0d1117" />
+  <img src="https://leetcard.jacoblin.cool/ms_2107?theme=dark&ext=heatmap" />
 </p>
 
 ---
@@ -75,20 +75,20 @@
 <table align="center" width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-stats-extended.vercel.app/api?username=21mohit-dotcom&show_icons=true&theme=github_dark&bg_color=0d1117&card_color=161b22&border_color=30363d&hide_border=true&include_all_commits=true&count_private=true&hide=issues,contribs&card_width=495" />
+      <img src="https://github-stats-extended.vercel.app/api?username=21mohit-dotcom&show_icons=true&theme=catppuccin_mocha&bg_color=1e1e2e&hide_border=true&include_all_commits=true&count_private=true&hide=issues,contribs&card_width=495" />
     </td>
     <td width="50%" align="center">
-      <img src="https://github-stats-extended.vercel.app/api/top-langs?username=21mohit-dotcom&layout=compact&theme=github_dark&bg_color=0d1117&card_color=161b22&border_color=30363d&hide_border=true&langs_count=8&card_width=495" />
+      <img src="https://github-stats-extended.vercel.app/api/top-langs?username=21mohit-dotcom&layout=compact&theme=catppuccin_mocha&bg_color=1e1e2e&hide_border=true&langs_count=8&card_width=495" />
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=21mohit-dotcom&theme=github-dark&hide_border=true&bg_color=0d1117&area=true&color=58a6ff&border_color=30363d" width="92%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=21mohit-dotcom&theme=react-dark&hide_border=true&bg_color=1e1e2e&area=true&color=89b4fa" width="92%" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=21mohit-dotcom&theme=github-dark&no-frame=true&bg_color=0d1117&column=7&margin-w=10" width="92%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=21mohit-dotcom&theme=catppuccin_mocha&no-frame=true&no-bg=true&column=7&margin-w=10" width="92%" />
 </p>
 
 ---
