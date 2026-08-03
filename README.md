@@ -2,11 +2,11 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Mohit%20Kumar%20Sharma&fontSize=60&fontAlignY=35&animation=twinkling" />
 </div>
 
-<h3 align="center">Computer Science Undergraduate | Full-Stack Developer | Backend & AI Enthusiast | 700+ DSA Problems Solved</h3>
+<h3 align="center">Computer Science Undergraduate | Full-Stack Developer | Backend & AI Enthusiast | 700 DSA Problems Solved</h3>
 
 <p align="center">
-  <a href="https://leetcode.com/u/ms_2107/"><img src="https://img.shields.io/badge/LeetCode-700%2B%20Problems-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
-  <a href="https://codeforces.com/profile/m.o.h.i.t_s"><img src="https://img.shields.io/badge/Codeforces-1075%2B-1FB8CD?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
+  <a href="https://leetcode.com/u/ms_2107/"><img src="https://img.shields.io/badge/LeetCode-Max%20Rating%201550%2B-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
+  <a href="https://codeforces.com/profile/m.o.h.i.t_s"><img src="https://img.shields.io/badge/Codeforces-Max%20Rating%201130%2B-1FB8CD?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/CodeChef-2%E2%98%85%20(1400%2B)-orange?style=for-the-badge&logo=codechef&logoColor=white" />
   <img src="https://img.shields.io/badge/NCC-Sergeant-blueviolet?style=for-the-badge&logo=military&logoColor=white" />
 </p>
@@ -23,7 +23,7 @@
 
 > I build full-stack products with real-world impact — from AI-powered inventory systems to ML-driven fraud detection. Every project below is **built, deployed, and tested** end-to-end.
 
-**CS Undergrad** · **Full-Stack Developer** · **700+ DSA Problems Solved** across LeetCode, CodeChef & Codeforces.
+**CS Undergrad** · **Full-Stack Developer** · **700 DSA Problems Solved (Overall)** · LeetCode Max Rating 1550+ · Codeforces Max Rating 1130+
 
 ---
 
@@ -78,7 +78,7 @@
 | Achievement | Details |
 |------------|---------|
 | 🥇 **Hackathon Winner** | 1st Position — BOT-Soccer, Pantheon Tech Fest, BIT Mesra |
-| 💯 **700+ DSA Problems** | LeetCode 1530+ · Codeforces 1075+ · CodeChef 1400+ |
+| 💯 **700 DSA Problems** | LeetCode Max Rating 1550+ · Codeforces Max Rating 1130+ · CodeChef 1400+ |
 | 🎖️ **NCC Sergeant** | Led 100+ cadets · Cleared NCC 'B' Certificate |
 | ⭐ **CodeChef 2★** | Rating 1400+ |
 
