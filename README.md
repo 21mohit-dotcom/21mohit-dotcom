@@ -73,8 +73,8 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=21mohit-dotcom&show_icons=true&theme=radical&bg_color=0d1117&hide_border=true&include_all_commits=true&count_private=true&hide=issues,contribs" width="49%" />
-  <img src="https://github-readme-streak-stats.vercel.app/?user=21mohit-dotcom&theme=radical&hide_border=true&bg_color=0d1117" width="49%" />
+  <img src="https://github-stats-extended.vercel.app/api?username=21mohit-dotcom&show_icons=true&theme=radical&bg_color=0d1117&hide_border=true&include_all_commits=true&count_private=true&hide=issues,contribs" width="49%" />
+  <img src="https://github-stats-extended.vercel.app/api/streak?username=21mohit-dotcom&theme=radical&bg_color=0d1117&hide_border=true" width="49%" />
 </p>
 
 <p align="center">
@@ -82,7 +82,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=21mohit-dotcom&layout=compact&theme=radical&bg_color=0d1117&hide_border=true&langs_count=8" width="49%" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=21mohit-dotcom&layout=compact&theme=radical&bg_color=0d1117&hide_border=true&langs_count=8" width="49%" />
   <img src="https://github-profile-trophy.vercel.app/?username=21mohit-dotcom&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10" width="49%" />
 </p>
 
