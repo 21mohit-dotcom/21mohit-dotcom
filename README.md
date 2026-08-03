@@ -1,10 +1,81 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Mohit%20Kumar%20Sharma&fontSize=60&fontAlignY=35&animation=twinkling" />
-</div>
 
-<h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&multiline=true&repeatType=wait&width=700&height=100&lines=Computer+Science+Undergraduate;Full-Stack+Developer+%7C+Backend+%26+AI+Enthusiast;700+DSA+Problems+Solved" alt="Mohit Kumar Sharma" />
-</h3>
+  <!-- Animated Gradient Background Banner -->
+  <svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1">
+          <animate attributeName="stop-color" values="#7c3aed;#2563eb;#7c3aed" dur="3s" repeatCount="indefinite"/>
+        </stop>
+        <stop offset="50%" style="stop-color:#2563eb;stop-opacity:1">
+          <animate attributeName="stop-color" values="#2563eb;#06b6d4;#2563eb" dur="3s" repeatCount="indefinite"/>
+        </stop>
+        <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1">
+          <animate attributeName="stop-color" values="#06b6d4;#7c3aed;#06b6d4" dur="3s" repeatCount="indefinite"/>
+        </stop>
+      </linearGradient>
+      <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1">
+          <animate attributeName="stop-color" values="#f59e0b;#ef4444;#f59e0b" dur="4s" repeatCount="indefinite"/>
+        </stop>
+        <stop offset="100%" style="stop-color:#ef4444;stop-opacity:1">
+          <animate attributeName="stop-color" values="#ef4444;#f59e0b;#ef4444" dur="4s" repeatCount="indefinite"/>
+        </stop>
+      </linearGradient>
+    </defs>
+    <!-- Animated background rect -->
+    <rect width="800" height="120" rx="20" fill="#0d1117" stroke="url(#grad1)" stroke-width="3">
+      <animate attributeName="stroke-width" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Floating particles -->
+    <circle cx="50" cy="30" r="2" fill="#7c3aed" opacity="0.6">
+      <animate attributeName="cy" values="30;90;30" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="80" r="1.5" fill="#2563eb" opacity="0.5">
+      <animate attributeName="cy" values="80;20;80" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="650" cy="40" r="2" fill="#06b6d4" opacity="0.7">
+      <animate attributeName="cy" values="40;100;40" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0.2;0.7" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="90" r="1.5" fill="#f59e0b" opacity="0.5">
+      <animate attributeName="cy" values="90;10;90" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="15" r="1" fill="#ef4444" opacity="0.4">
+      <animate attributeName="cy" values="15;105;15" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Name text -->
+    <text x="400" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="url(#grad1)">
+      Mohit Kumar Sharma
+      <animate attributeName="opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite"/>
+    </text>
+    <!-- Animated underline -->
+    <line x1="200" y1="68" x2="600" y2="68" stroke="url(#grad2)" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="x1" values="200;300;200" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="600;500;600" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <!-- Subtitle typing effect -->
+    <text x="400" y="95" text-anchor="middle" font-family="monospace" font-size="15" fill="#a78bfa" opacity="0.9">
+      <tspan>Full-Stack Developer</tspan>
+      <animate attributeName="opacity" values="0;1;1;0" dur="4s" repeatCount="indefinite" keyTimes="0;0.1;0.7;1"/>
+    </text>
+    <text x="400" y="95" text-anchor="middle" font-family="monospace" font-size="15" fill="#60a5fa" opacity="0">
+      <tspan>Backend &amp; AI Enthusiast</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" dur="4s" repeatCount="indefinite" keyTimes="0;0.25;0.35;0.75;1"/>
+    </text>
+    <text x="400" y="95" text-anchor="middle" font-family="monospace" font-size="15" fill="#22d3ee" opacity="0">
+      <tspan>700+ DSA Problems Solved</tspan>
+      <animate attributeName="opacity" values="0;0;0;1;1;0" dur="4s" repeatCount="indefinite" keyTimes="0;0.5;0.6;0.7;0.9;1"/>
+    </text>
+    <!-- Blinking cursor -->
+    <rect x="543" y="82" width="2" height="16" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </svg>
+
+</div>
 
 <p align="center">
   <a href="https://leetcode.com/u/ms_2107/"><img src="https://img.shields.io/badge/LeetCode-Max%20Rating%201550%2B-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
