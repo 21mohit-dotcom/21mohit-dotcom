@@ -63,7 +63,7 @@
 ## 📊 LeetCode Stats & Heatmap
 
 <p align="center">
-  <img src="https://leetcard.vercel.app/ms_2107?theme=dark&ext=heatmap" />
+  <img src="https://leetcard.jacoblin.cool/ms_2107?theme=dark&ext=heatmap" />
 </p>
 
 ---
