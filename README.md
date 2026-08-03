@@ -60,6 +60,14 @@
 
 ---
 
+## 📊 LeetCode Stats & Heatmap
+
+<p align="center">
+  <img src="https://leetcard.vercel.app/ms_2107?theme=dark&ext=heatmap" />
+</p>
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
