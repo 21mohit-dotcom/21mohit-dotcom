@@ -2,7 +2,9 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Mohit%20Kumar%20Sharma&fontSize=60&fontAlignY=35&animation=twinkling" />
 </div>
 
-<h3 align="center">Computer Science Undergraduate | Full-Stack Developer | Backend & AI Enthusiast | 700 DSA Problems Solved</h3>
+<h3 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&multiline=true&repeatType=wait&width=700&height=100&lines=Computer+Science+Undergraduate;Full-Stack+Developer+%7C+Backend+%26+AI+Enthusiast;700+DSA+Problems+Solved" alt="Mohit Kumar Sharma" />
+</h3>
 
 <p align="center">
   <a href="https://leetcode.com/u/ms_2107/"><img src="https://img.shields.io/badge/LeetCode-Max%20Rating%201550%2B-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
@@ -71,12 +73,17 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=21mohit-dotcom&show_icons=true&theme=radical&bg_color=0d1117&hide_border=true&include_all_commits=true&count_private=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=21mohit-dotcom&theme=radical&hide_border=true&bg_color=0d1117" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=21mohit-dotcom&show_icons=true&theme=radical&bg_color=0d1117&hide_border=true&include_all_commits=true&count_private=true&hide=issues,contribs" width="49%" />
+  <img src="https://github-readme-streak-stats.vercel.app/?user=21mohit-dotcom&theme=radical&hide_border=true&bg_color=0d1117" width="49%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=21mohit-dotcom&theme=redical&hide_border=true&bg_color=0d1117&area=true" width="96%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=21mohit-dotcom&theme=radical&hide_border=true&bg_color=0d1117&area=true&color=7c3aed" width="96%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=21mohit-dotcom&layout=compact&theme=radical&bg_color=0d1117&hide_border=true&langs_count=8" width="49%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=21mohit-dotcom&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10" width="49%" />
 </p>
 
 ---
@@ -133,5 +140,5 @@
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=Thanks+for+Visiting+%E2%9C%8B&fontSize=18&fontColor=ffffff" />
 </p>
