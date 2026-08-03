@@ -75,10 +75,10 @@
 <table align="center" width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-stats-extended.vercel.app/api?username=21mohit-dotcom&show_icons=true&theme=catppuccin_mocha&bg_color=1e1e2e&hide_border=true&include_all_commits=true&count_private=true&hide=issues,contribs&card_width=495" />
+      <img src="https://github-stats-extended.vercel.app/api?username=21mohit-dotcom&show_icons=true&theme=catppuccin_mocha&bg_color=0d1117&hide_border=true&include_all_commits=true&count_private=true&hide=issues,contribs&card_width=495" />
     </td>
     <td width="50%" align="center">
-      <img src="https://github-stats-extended.vercel.app/api/top-langs?username=21mohit-dotcom&layout=compact&theme=catppuccin_mocha&bg_color=1e1e2e&hide_border=true&langs_count=8&card_width=495" />
+      <img src="https://github-stats-extended.vercel.app/api/top-langs?username=21mohit-dotcom&layout=compact&theme=catppuccin_mocha&bg_color=0d1117&hide_border=true&langs_count=8&card_width=495" />
     </td>
   </tr>
 </table>
