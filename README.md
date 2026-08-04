@@ -3,7 +3,28 @@
 </div>
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&multiline=true&repeatType=wait&width=700&height=100&lines=Computer+Science+Undergraduate;Full-Stack+Developer+%7C+Backend+%26+AI+Enthusiast;700+DSA+Problems+Solved" alt="Mohit Kumar Sharma" />
+  <svg width="700" height="120" viewBox="0 0 700 120" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#7C3AED">
+          <animate attributeName="stop-color" values="#7C3AED;#E9D5FF;#7C3AED" dur="2s" repeatCount="indefinite" />
+        </stop>
+        <stop offset="50%" stop-color="#C084FC">
+          <animate attributeName="stop-color" values="#C084FC;#FFFFFF;#C084FC" dur="2s" repeatCount="indefinite" />
+        </stop>
+        <stop offset="100%" stop-color="#7C3AED">
+          <animate attributeName="stop-color" values="#7C3AED;#E9D5FF;#7C3AED" dur="2s" repeatCount="indefinite" />
+        </stop>
+        <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="2s" repeatCount="indefinite" />
+      </linearGradient>
+    </defs>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="3s" repeatCount="indefinite" />
+      <text x="350" y="35" text-anchor="middle" font-family="Fira Code, monospace" font-size="24" font-weight="600" fill="url(#shine)">Computer Science Undergraduate</text>
+      <text x="350" y="70" text-anchor="middle" font-family="Fira Code, monospace" font-size="24" font-weight="600" fill="url(#shine)">Full-Stack Developer | Backend &amp; AI Enthusiast</text>
+      <text x="350" y="105" text-anchor="middle" font-family="Fira Code, monospace" font-size="24" font-weight="600" fill="url(#shine)">700 DSA Problems Solved</text>
+    </g>
+  </svg>
 </h3>
 
 <p align="center">
