@@ -3,27 +3,48 @@
 </div>
 
 <h3 align="center">
-  <svg width="700" height="120" viewBox="0 0 700 120" xmlns="http://www.w3.org/2000/svg">
+  <svg width="700" height="130" viewBox="0 0 700 130" xmlns="http://www.w3.org/2000/svg">
     <defs>
-      <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#7C3AED">
-          <animate attributeName="stop-color" values="#7C3AED;#E9D5FF;#7C3AED" dur="2s" repeatCount="indefinite" />
-        </stop>
-        <stop offset="50%" stop-color="#C084FC">
-          <animate attributeName="stop-color" values="#C084FC;#FFFFFF;#C084FC" dur="2s" repeatCount="indefinite" />
+      <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur1"/>
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur2"/>
+        <feGaussianBlur in="SourceGraphic" stdDeviation="20" result="blur3"/>
+        <feColorMatrix in="blur1" type="matrix" values="0 0 0 0 0.5  0 0 0 0 0.3  0 0 0 0 1  0 0 0 1.5 0" result="glow1"/>
+        <feColorMatrix in="blur2" type="matrix" values="0 0 0 0 0.7  0 0 0 0 0.5  0 0 0 0 1  0 0 0 1 0" result="glow2"/>
+        <feColorMatrix in="blur3" type="matrix" values="0 0 0 0 1  0 0 0 0 0.9  0 0 0 0 1  0 0 0 0.7 0" result="glow3"/>
+        <feMerge>
+          <feMergeNode in="glow3"/>
+          <feMergeNode in="glow2"/>
+          <feMergeNode in="glow1"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+      <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#7C3AED" stop-opacity="1"/>
+        <stop offset="40%" stop-color="#C084FC" stop-opacity="1"/>
+        <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1"/>
+        <stop offset="60%" stop-color="#C084FC" stop-opacity="1"/>
+        <stop offset="100%" stop-color="#7C3AED" stop-opacity="1"/>
+        <animate attributeName="offset" values="0%;100%" dur="1.8s" repeatCount="indefinite"/>
+      </linearGradient>
+      <linearGradient id="pulse" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#E9D5FF">
+          <animate attributeName="stop-color" values="#E9D5FF;#FFFFFF;#E9D5FF" dur="1.5s" repeatCount="indefinite"/>
         </stop>
         <stop offset="100%" stop-color="#7C3AED">
-          <animate attributeName="stop-color" values="#7C3AED;#E9D5FF;#7C3AED" dur="2s" repeatCount="indefinite" />
+          <animate attributeName="stop-color" values="#7C3AED;#C084FC;#7C3AED" dur="1.5s" repeatCount="indefinite"/>
         </stop>
-        <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="2s" repeatCount="indefinite" />
       </linearGradient>
     </defs>
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="3s" repeatCount="indefinite" />
-      <text x="350" y="35" text-anchor="middle" font-family="Fira Code, monospace" font-size="24" font-weight="600" fill="url(#shine)">Computer Science Undergraduate</text>
-      <text x="350" y="70" text-anchor="middle" font-family="Fira Code, monospace" font-size="24" font-weight="600" fill="url(#shine)">Full-Stack Developer | Backend &amp; AI Enthusiast</text>
-      <text x="350" y="105" text-anchor="middle" font-family="Fira Code, monospace" font-size="24" font-weight="600" fill="url(#shine)">700 DSA Problems Solved</text>
+    <g filter="url(#glow)">
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-2;0,0" dur="2.5s" repeatCount="indefinite"/>
+      <text x="350" y="32" text-anchor="middle" font-family="Fira Code, monospace" font-size="24" font-weight="600" fill="url(#pulse)">Computer Science Undergraduate</text>
+      <text x="350" y="67" text-anchor="middle" font-family="Fira Code, monospace" font-size="24" font-weight="600" fill="url(#pulse)">Full-Stack Developer | Backend &amp; AI Enthusiast</text>
+      <text x="350" y="102" text-anchor="middle" font-family="Fira Code, monospace" font-size="24" font-weight="600" fill="url(#pulse)">700 DSA Problems Solved</text>
     </g>
+    <rect x="0" y="0" width="700" height="130" fill="url(#beam)" opacity="0.15">
+      <animate attributeName="opacity" values="0.05;0.2;0.05" dur="1.8s" repeatCount="indefinite"/>
+    </rect>
   </svg>
 </h3>
 
